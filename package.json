@@ -1,0 +1,25 @@
+{
+  "name": "last-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ituki0426/Last-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ituki0426/Last-App/issues"
+  },
+  "homepage": "https://github.com/ituki0426/Last-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
