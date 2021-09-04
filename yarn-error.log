@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Owner\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add React
+
+PATH: 
+  C:\Users\Owner\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Owner\bin;C:\Users\Owner\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Owner\AppData\Local\Programs\Python\Python39;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\MinGW\bin;C:\Program Files\Java\jdk-16\bin;C:\Program Files\PuTTY;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16\bin;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps\Scripts;C:\xampp7\php;C:\Users\Owner\AppData\Local\GitHubDesktop\bin;C:\Users\Owner\AppData\Roaming\npm;C:\gcc\mingw64\bin;C:\Users\柴沼厳\anaconda3;C:\Users\柴沼厳\anaconda3\Scripts;C:\Users\柴沼厳\anaconda3\Library\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\Owner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;D:\xampp\php;C:\Users\Owner\AppData\Local\ComposerSetup\bin;C:\Users\Owner\AppData\Roaming\Composer\vendor\bin;D:\xampp\mysql\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/React: Not found
+      at Request.params.callback [as _callback] (C:\Users\Owner\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\Owner\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (C:\Users\Owner\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (C:\Users\Owner\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1329:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "last-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon backend/index.js",
+      "heroku-postbuild": "cd frontend && npm install && npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ituki0426/Last-App.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ituki0426/Last-App/issues"
+    },
+    "homepage": "https://github.com/ituki0426/Last-App#readme",
+    "dependencies": {
+      "cookie-parser": "^1.4.5",
+      "dotenv": "^10.0.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "google-auth-library": "^7.9.1",
+      "mongodb": "^4.1.1",
+      "mongose": "^0.0.2-security"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

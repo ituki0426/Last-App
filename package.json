@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/index.js",
+    "start": "nodemon backend/index.js",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "repository": {
@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/ituki0426/Last-App#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.9.1",
+    "mongodb": "^4.1.1",
+    "mongose": "^0.0.2-security",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
